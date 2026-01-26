@@ -16,7 +16,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 900px;
+        /* width: 900px; */
         height: 60vh;
       }
 
@@ -24,7 +24,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 900px;
+        /* width: 900px; */
         height: 30vh;
         border-radius: 50%; 
         animation: beat 1s linear infinite;
@@ -54,7 +54,7 @@
       
         /*creating animation effect*/
         .poz{
-            width: 900px;
+            /* width: 900px; */
             height: 30vh;
             display: flex;
             justify-content: center;
@@ -63,7 +63,7 @@
         }
 
         a:hover {
-            width: 900px;
+            /* width: 900px; */
             height: 40vh;
             font-size: 8em;
             color: #39ff14;
@@ -73,13 +73,74 @@
             border: #fc03c6;
             border-radius: 30px;
         }
-        @media screen and (min-width: 480px) and (max-width: 768px) {
-    body{
-        display: flex;
-        justify-content: center;
-            align-items: center;
-            align-content: center;
+        /* @media screen and (max-width: 480px) {
+    a:hover{
         height: 100vh;
     }
+} */
+   @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+   .extend {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+      }
+
+      .heart-beat a:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%; 
+        animation: beat 1s linear infinite;
+      }
+      
+      
+       @keyframes beat{
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+        a {
+            /* display: inline-block; */
+             display: flex;
+        justify-content: center;
+        align-items: center;
+        
+            color: #654568;
+            letter-spacing: 2px;
+            /* text-transform: uppercase; */
+            text-decoration: none;
+            /* font-size: 3em; */
+            /* background: #fc03c6;
+            border-radius: 50%; */
+            overflow: hidden;
+        }
+      
+        /*creating animation effect*/
+        .poz{
+            /* height: 30vh; */
+            width: 400px;
+        height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #39ff14;
+        }
+
+        a:hover {
+            /* height: 40vh; */
+            margin-top: 100px;
+            font-size: 3em;
+            color: #39ff14;
+            text-shadow: 1px 1px 2px #000;
+            background: #fc03c6;
+            box-shadow: 0 0 55px 30px #39ff14;
+            border: #fc03c6;
+            border-radius: 30px;
+        }
 }
-   
