@@ -70,8 +70,10 @@
             border: #fc03c6;
             border-radius: 30px;
         }
-        @media (min-width: 700px) {
+        @media (min-width: 500px) {
     body{
         display: flex;
+         width: 500px;
+        height: 100vh;
     }
 }
