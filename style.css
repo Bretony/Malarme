@@ -89,15 +89,14 @@
         justify-content: center;
         align-items: center;
         height: 500px;
-        margin-left: 50px;
       }
 
       .heart-beat a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 370px;
-        height: 370px;
+        width: 320px;
+        height: 320px;
         border-radius: 50%; 
         animation: beat 1s linear infinite;
       }
